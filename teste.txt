@@ -1,0 +1,49 @@
+{ "_id" : "91c75ad6-1a54-47e3-bcfa-7aa881215320", "type" : "API", "data" : [ "sa
+le", "POST", null, "{\"total_value\":18.94,\"app_type\":null,\"discount\":0,\"sa
+le_end\":\"2020-02-28 08:31:26\",\"consumption_tap\":false,\"source\":null,\"sal
+e_start\":\"2020-02-28 08:30:50\",\"saleIdWeb\":null,\"number\":4,\"createdAt\":
+\"2020-02-28 08:31:26.745\",\"exchange_for\":null,\"status_id\":\"2\",\"printPoi
+ntIdGeneral\":null,\"pos_id\":\"2\",\"delivery_type\":null,\"combos\":[],\"offli
+ne_code\":\"1582889486691\",\"app_id\":9,\"seller_id\":\"4\",\"updatedAt\":\"202
+0-02-28 08:31:26.745\",\"send_to_cloud\":false,\"unique_id\":\"01de635a-f7d2-410
+e-bb80-8f610972ca7b\",\"saleOrderIdWeb\":null,\"pos_status_id\":\"476\",\"cancel
+ed\":null,\"deletedAt\":null,\"registration_date\":\"2020-02-28 08:31:26\",\"use
+r_id\":\"4\",\"customer_service_ids\":[],\"exchange\":\"0\",\"source_tap\":null,
+\"source_status\":null,\"received_offline\":false,\"customer_service_names\":nul
+l,\"code\":\"1582889486691\",\"payments\":[{\"payment_settings\":null,\"nfe_code
+\":\"99\",\"card_provider_id\":null,\"unique_id\":\"0c49edb5-9a90-4225-8fae-a242
+276b2972\",\"card_authorization\":null,\"method\":null,\"card_brand_id\":null,\"
+payment_method_name\":null,\"type\":null,\"card_provider_name\":null,\"payment_m
+ethod_id\":13,\"card_receipt\":null,\"installments\":[{\"value\":18.94}],\"card_
+brand\":null,\"payment_settings_id\":null,\"card_brand_name\":null,\"tefOperatio
+n\":null,\"payment_method\":\"Faturamento\",\"gateway\":null}],\"delivery_tax\":
+null,\"fiscal_status\":\"PENDING\",\"contingency_code\":null,\"products\":[{\"to
+tal_value\":14.32,\"code\":\"3670\",\"consumption_coupon\":null,\"seller_cancel_
+id\":null,\"canceled_at\":null,\"transferred_to\":null,\"discount\":null,\"print
+Points\":[],\"unitary_value\":1.79,\"offline_sale_product_id\":null,\"seller_can
+cel_name\":null,\"additionals\":[],\"transferred_amount\":null,\"id\":\"4982\",\
+"transferred_at\":null,\"order\":1,\"amount\":8,\"unitOfMeasure\":{\"symbol\":\"
+Un\",\"calculate_area\":false,\"name\":\"Unidade\",\"id\":\"2\",\"type\":\"ALL\"
+,\"decimal_places\":0},\"observation\":[],\"removedComponents\":[],\"transferred
+_from\":null,\"name\":\"COT 3/4 AMANCO 58-140\",\"integration_sale_product_id\":
+null,\"attributes\":[],\"flg_separate_print\":false},{\"total_value\":4.62,\"cod
+e\":\"244\",\"consumption_coupon\":null,\"seller_cancel_id\":null,\"canceled_at\
+":null,\"transferred_to\":null,\"discount\":null,\"printPoints\":[],\"unitary_va
+lue\":1.54,\"offline_sale_product_id\":null,\"seller_cancel_name\":null,\"additi
+onals\":[],\"transferred_amount\":null,\"id\":\"5866\",\"transferred_at\":null,\
+"order\":2,\"amount\":3,\"unitOfMeasure\":{\"symbol\":\"Un\",\"calculate_area\":
+false,\"name\":\"Unidade\",\"id\":\"2\",\"type\":\"ALL\",\"decimal_places\":0},\
+"observation\":[],\"removedComponents\":[],\"transferred_from\":null,\"name\":\"
+LUVA 3/4 LL AMANCO 58-186\",\"integration_sale_product_id\":null,\"attributes\":
+[],\"flg_separate_print\":false}],\"carrier_id\":null,\"status_detail_id\":null,
+\"delivery_end_after\":null,\"tax_value\":null,\"flg_delivery\":false,\"external
+_code\":null,\"carrier_name\":null,\"sat_id\":\"1\",\"address\":null,\"observati
+on\":null,\"originalValueReceivedCash\":null,\"printPointIdCustomer\":null,\"fis
+cal_contingency\":null,\"app_name\":\"PDV 2.0\",\"sale\":true,\"app_key\":\"5cd5
+98dbf3d57-83d9a1c113033aacce5a1eebd34d16eb-2WPkAkcF4U56t33yq\",\"take_away\":fal
+se,\"invoice\":null,\"flg_received\":null,\"customer\":{\"balance\":null,\"phone
+\":\"988242469\",\"name\":\"FRANCISCO JOATAN\",\"cpf\":null,\"address_id\":null,
+\"id\":531,\"cnpj\":\"16528287000167\",\"identificator\":null}}" ], "status" : "
+422", "log" : "{\"customer.phone\":[\"O campo customer.phone dever\\u00e1 conter
+ no m\\u00ednimo 10 caracteres.\"]}", "createdAt" : "2020-03-02 13:55:31.218", "
+updatedAt" : "2020-03-02 13:55:31.218" }

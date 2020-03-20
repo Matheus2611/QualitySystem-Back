@@ -1,0 +1,44 @@
+
+
+$table ciclo
+{
+    id
+    title
+    project_id
+    
+}
+
+
+$table projects
+{
+    id
+    titulo
+    desc
+    status
+}
+
+
+
+
+1 para muitos
+
+$table fluxo
+{
+    id
+    titulo
+    ciclo_id
+    
+}
+
+$teste 
+{
+    id
+    nome
+    user_id
+    comentario
+    fluxo_id
+   
+}
+
+
+

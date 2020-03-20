@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=ISL Light
+Exec=/opt/ISLOnline/ISLLight/ISLLight %u
+Type=Application
+Categories=Application;Network;
+MimeType=x-scheme-handler/isllight;
+Icon=/opt/ISLOnline/ISLLight/qml/branding/logo.png
