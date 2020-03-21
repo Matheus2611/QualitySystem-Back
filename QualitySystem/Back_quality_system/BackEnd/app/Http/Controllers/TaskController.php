@@ -10,8 +10,7 @@ class TaskController extends Controller
 {
     public function index()
     {
-        return Task::where('user_id', '7')->orderBy('created_at')->get();
-
+       return Task::with('flow')->where('user_id', auth()->user()->id)->get();
 
     }
 }

@@ -11,7 +11,14 @@ class FlowController extends Controller
 {
     public function index()
     {
-        return Flow::all();
+        // return Flow::with('cicle')->with('tasks')->->get();
+
+        $flows = Flow::with('tasks')->get();
+
+
+
+            return response($flows);
+
 
     }
 

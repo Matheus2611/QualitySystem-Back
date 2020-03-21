@@ -17,6 +17,7 @@ Route::middleware('auth:api')->group(function () {
     Route::get('/user', function (Request $request) {
         return $request->user();
     });
+    Route::get('/userstasks', 'TaskController@index');
     Route::post('/flows', 'FlowController@store');
     Route::post('/tasks', 'TaskController@store');
     Route::get('/userProject', 'ProjectController@userProject');
@@ -37,13 +38,15 @@ Route::post('/projects', 'ProjectController@store');
 Route::patch('/projects/{project}', 'ProjectController@update');
 Route::delete('/projects/{project}', 'ProjectController@destroy');
 
-Route::get('/flows', 'FlowController@index');
+
 Route::get('/tasks', 'TaskController@index');
 
 
 //querys
-Route::get('/userstasks', 'TaskController@index');
+
 Route::get('/userstask', 'UserController@UserTasks');
 Route::get('/projectsCicle', 'CicleController@index');
+Route::get('/flows', 'FlowController@index');
+
 
 

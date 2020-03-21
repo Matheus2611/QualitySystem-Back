@@ -15,7 +15,7 @@ class ProjectController extends Controller
      */
     public function index()
     {
-        return Project::all();
+        return Project::with('cicle')->get();
 
         // retorna os projetos com os usuários
         // return Project::with('users')->get();
@@ -23,7 +23,7 @@ class ProjectController extends Controller
 
     public function userProject()
     {
-        return Project::where('user_id', auth()->user()->id)->orderBy('created_at')->get();
+        return Project::where('user_id', auth()->user()->id)->get();
     }
 
     /**
